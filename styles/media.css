@@ -1,0 +1,154 @@
+@media (max-width: 1190px) {
+    .header1{
+    	font-size: 13px;
+    	margin-left: 100px;
+    }
+    .header2{
+    	width: 300px;
+    	font-size: 40px;
+    	margin-left: 100px;
+    }
+    .section_1{
+    	margin-top: 50px;
+    }
+    textarea {
+        width: 656px;
+        height:259px;
+		padding-top: 20px;
+		padding-left: 19px;
+	    }
+    input{
+    	width: 330px;
+    	height: 50px;
+    }
+    .section_3 img{
+    	width: 330px;
+    }
+	.first h3{
+		font-size: 23px;
+		margin-bottom: 23px;
+	}
+	.first p{
+		font-size: 17px;
+		width: 255px;
+	}
+}
+@media (max-width: 1040px){
+	.header1{
+    	margin-left: 80px;
+    }
+    .header2{
+    	margin-left: 80px;
+    }
+    .section_1{
+    	margin-top: 40px;
+    }
+    textarea {
+        width: 556px;
+        height:210px;
+	}
+	fieldset{
+		margin-left: 10px;
+	}
+    input{
+    	width: 280px;
+    	height: 41px;
+    }
+    input[type=text]{
+    	margin-bottom: 15px;
+    }
+    .section_3 img{
+    	width: 290px;
+    }
+}
+@media (max-width: 900px){
+	.header1{
+    	margin-left: 70px;
+    }
+    .header2{
+    	width: 250px;
+    	font-size: 35px;
+    	margin-left: 70px;
+    }
+    .section_1{
+    	margin-top: 30px;
+    }
+    textarea {
+        width: 456px;
+	}
+    input{
+    	width: 260px;
+    }
+    .section_3 img{
+    	width: 260px;
+    }
+}
+@media (max-width: 810px){
+	textarea{
+		width: 330px;
+	}
+	.section_3 div{
+		flex-direction: column;
+		align-items: center;
+		margin-top: 30px;
+	}
+	.section_3 img{
+		width: 373px;
+		margin-bottom: 30px;
+	}
+	footer{
+		align-items: center;
+		flex-direction: column;
+		padding-bottom: 33px;
+	}
+	footer div{
+		margin-bottom: 30px;
+		width: 255px;
+	}
+}
+@media (max-width: 615px){
+	.header1{
+    	margin-left: 50px;
+    }
+    .header2{
+    	margin-left: 50px;
+    }
+	textarea{
+		width: 260px;
+	}
+	.section_2{
+		flex-direction: column;
+		align-items: center;
+	}
+	.main{
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 555px){
+	.header1{
+		margin-left: 20px;
+	}
+	.header2{
+		margin-left: 20px;
+	}
+	form{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	fieldset{
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	.section_3 h3{
+		width: 348px;
+	}
+}
+@media (max-width: 385px){
+	.section_3 h3{
+		width: 320px;
+	}
+	.section_3 img{
+		width: 330px;
+	}
+}
